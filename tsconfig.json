@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./public",
+    "noImplicitAny": true,
+    "module": "commonJs",
+    "target": "es6",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true
+  }
+}
