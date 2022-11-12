@@ -1,6 +1,8 @@
+import { createElement } from '../reactLite';
+
 export const menu = (changeTab: (str: string) => void) => {
 
-  const menu = document.createElement('div');
+  const menu = createElement({keyElement: 'div', id: 'menu'})
 
   const games = [ 'minesweeper', 'motus' ];
 
@@ -13,7 +15,6 @@ export const menu = (changeTab: (str: string) => void) => {
     button.classList.add('button')
     button.innerText = str
     button.addEventListener('click', () => {
-      console.log(str);
       changeTab(str);
     })
     menu.appendChild(button);

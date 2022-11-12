@@ -1,7 +1,7 @@
 import { menu } from './component/menu';
 import { useEffect, useState } from './reactLite';
 
-import { minesweeper } from './component/games/minesweeper';
+import { minesweeperHome } from './component/games/minesweeper/minesweeperHome';
 import { motus } from './component/games/motus';
 
 export const App = (() => {
@@ -10,7 +10,7 @@ export const App = (() => {
 
   const components: { [key: string]: any } = {
     menu: menu(setElementInView),
-    minesweeper: minesweeper(),
+    minesweeper: minesweeperHome(setElementInView),
     motus: motus(),
   }
 
