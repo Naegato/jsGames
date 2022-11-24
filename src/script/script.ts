@@ -1,5 +1,5 @@
 import { App } from './app';
 
 (() => {
-  document.body.appendChild(App);
+  document.body.appendChild(App());
 })()

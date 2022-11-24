@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Naegato/jsGames#readme",
   "devDependencies": {
+    "@types/chroma-js": "^2.1.4",
     "express": "^4.18.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
@@ -37,6 +38,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "chroma-js": "^2.4.2",
     "concurrently": "^7.5.0",
     "css-loader": "^6.7.1",
     "path": "^0.12.7",
