@@ -42,6 +42,7 @@
     "concurrently": "^7.5.0",
     "css-loader": "^6.7.1",
     "path": "^0.12.7",
+    "pizzicato": "^0.6.4",
     "style-loader": "^3.3.1"
   }
 }
